@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}userprofile{% endblock %}
+
+{% block content %}
+
+
+    <div class = "d-flex justify-content-center">
+      <div class="w-50 d-flex-col">
+        <h1 class=text-center">User Profile</h1>
+          <br>
+
+      <p>login ID: {{ g.user }} </p>
+      <p>{{g.name}}</p>
+      <p>{{ g.email}}</p>
+
+      </p>
+      </div>
+    </div>
+
+{% endblock content %}
