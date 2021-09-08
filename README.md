@@ -10,7 +10,7 @@ We’ll use a free account on Okta to register our web app so we can create, man
 - Enable User Registration (optional)
 
 
-                                                           Okta IAM Cloud    
+                                                           Keycloak   
             |Flask App|          ----------->         (users / permissions)
        (File Hashing Function)                      
                
